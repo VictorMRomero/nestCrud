@@ -25,9 +25,14 @@ $ yarn install
 $ npm i -g @nest/cli
 ```
 
-3. Levantar la base de datos
+5. Levantar la base de datos
 ```bash
 $ docker-compose up -d
+```
+
+6. Construir la base de datos
+```
+$ http://127.0.0.1:3000/api/seed
 ```
 
 ## Correr la app
